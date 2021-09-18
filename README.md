@@ -1,2 +1,0 @@
-# ECON691OMO
-ECON691 Assignments
