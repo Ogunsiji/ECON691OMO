@@ -1,5 +1,5 @@
 library(tidyverse)
-covidIL= read.csv("Data/ILcovid19.csv")
+covidIL= read.csv("./Data/ILcovid19.csv")
 DIF=function(x){
   boy=x-lag(x)
   return(boy)
@@ -41,4 +41,4 @@ plot(covidIL$Date, covidIL$Pc_deaths,
      col= "red"
 )
 
-w
+
